@@ -2,15 +2,14 @@
   "name": "@Gloegg/package-demo-utils",
   "version": "0.0.1",
   "type": "module",
-  "description": "demo package for npm workshop",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run"
   },
-  "keywords": [
-    "demo",
-    "workshop"
-  ],
-  "author": "",
-  "license": "ISC"
+  "bugs": {
+    "url": "https://github.com/Gloegg/package-demo-utils/issues",
+    "email": "issues@achterho.lt"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.10"
+  }
 }
