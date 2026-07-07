@@ -13,7 +13,7 @@ A small demo package for our workshop. It provides a few lightweight utility fun
 Install the package from npm:
 
 ```bash
-npm install @Gloegg/package-demo-utils
+npm i @Gloegg/package-demo-utils
 ```
 
 ## Usage
