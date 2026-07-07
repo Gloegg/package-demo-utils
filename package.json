@@ -1,6 +1,6 @@
 {
   "name": "@Gloegg/package-demo-utils",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "prepare": "husky",
@@ -11,6 +11,9 @@
       "import": "./src/index.js"
     }
   },
+  "files": [
+    "src"
+  ],
   "bugs": {
     "url": "https://github.com/Gloegg/package-demo-utils/issues",
     "email": "issues@achterho.lt"
@@ -20,5 +23,21 @@
     "@commitlint/config-conventional": "^21.2.0",
     "husky": "^9.1.7",
     "vitest": "^4.1.10"
+  },
+  "author": {
+    "name": "Nils Achterholt",
+    "url": "https://achterho.lt",
+    "email": "nils@achterho.lt"
+  },
+  "description": "A demo package for a monorepo setup with npm workspaces",
+  "keywords": [
+    "demo",
+    "math",
+    "strings"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gloegg/package-demo-utils.git"
   }
 }
