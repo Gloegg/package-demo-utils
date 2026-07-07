@@ -6,6 +6,11 @@
     "prepare": "husky",
     "test": "vitest run"
   },
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
   "bugs": {
     "url": "https://github.com/Gloegg/package-demo-utils/issues",
     "email": "issues@achterho.lt"
