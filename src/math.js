@@ -10,3 +10,7 @@ export function avg(...numbers) {
 
   return sum(...numbers) / numbers.length;
 }
+
+export function multiply(...numbers) {
+  return numbers.reduce((result, number) => result * number, 1);
+}

@@ -19,10 +19,11 @@ npm i @Gloegg/package-demo-utils
 ## Usage
 
 ```js
-import { sum, avg } from "@Gloegg/package-demo-utils/src/math.js";
+import { sum, avg, multiply } from "@Gloegg/package-demo-utils/src/math.js";
 import { greet, capitalize } from "@Gloegg/package-demo-utils/src/string.js";
 
 console.log(sum(1, 2, 3, 4)); // 10
+console.log(multiply(1, 2, 3, 4)); // 24
 console.log(avg(2, 4, 6)); // 4
 console.log(greet("Workshop")); // Hello Workshop!
 console.log(capitalize("demo")); // Demo
