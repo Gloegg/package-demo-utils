@@ -2,7 +2,7 @@
  *@type {import('semantic-release').GlobalConfig}
  */
 export default {
-  branches: ["main"],
+  branches: ["master"],
   repositoryUrl: "https://github.com/Gloegg/package-demo-utils",
   plugins: [
     [
