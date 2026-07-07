@@ -3,13 +3,17 @@
   "version": "1.1.0",
   "type": "module",
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepare": "husky"
   },
   "bugs": {
     "url": "https://github.com/Gloegg/package-demo-utils/issues",
     "email": "issues@achterho.lt"
   },
   "devDependencies": {
+    "@commitlint/cli": "^21.2.0",
+    "@commitlint/config-conventional": "^21.2.0",
+    "husky": "^9.1.7",
     "vitest": "^4.1.10"
   }
 }
